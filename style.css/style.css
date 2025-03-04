@@ -29,6 +29,7 @@
 }
 .insparation{
     text-align: center;
+  
 }
 .layer-container{
     display:flex ;
@@ -76,7 +77,14 @@
     display: flex;
     justify-content:center ;
     margin-top: 30px;
+    margin-left: 180px;
+    margin-right: 180px;
     margin-bottom: 100px;
+    padding: 10px;
+    border: 1px rgb(184, 159, 159) solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
 }
 .My-Current-Target p{
     text-align: center;
@@ -139,9 +147,12 @@
    gap: 50px;   
    margin-bottom: 50px; 
    height: 100px;
-   padding: 30px;
+   padding: 50px;
+   padding-bottom: 80px;
    margin-bottom: 20px;
  border-radius: 10px;
+box-shadow: 10px;
+border: 1px rgb(184, 159, 159) solid;
   
 }
 .next-skill-content img{
@@ -149,5 +160,39 @@
     align-items: center;
     margin-top: 40px;
    
+}
+.support-section{
+  text-align: center;
+  color: white;
+  
+}
+.support{
+    background-image: url(../assets/handshake.jpg);
+    margin-left: 200px;
+    margin-right: 200px;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 80px;
+    border-radius: 10px;
+}
+.support-section button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+
+   
+}
+.support-section input{
+    height: 45px;
+    width: 500px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.text-btn{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
